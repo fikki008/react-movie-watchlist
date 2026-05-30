@@ -46,7 +46,7 @@ function MovieWatchlist () {
   return (
     <div>
       <div className='container'>
-        <h1 className='movie-heading'>✨ Cinematix ✨</h1> 
+        <h1 className='movie-heading'>✨Cinematix✨</h1> 
         <div className='input-container'>
       <input type="text"
       value={query}
