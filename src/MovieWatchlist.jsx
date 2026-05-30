@@ -52,6 +52,13 @@ function MovieWatchlist () {
       value={query}
       placeholder='Search movies... Superman, Avengers, Dune'
       onChange={(e) => setQuery(e.target.value)}
+      onKeyDown={
+        (e) => {
+          if(e.key === "Enter") {
+            fetchMovies()
+          }
+        }
+      }
       />
       <button className='search-btn' onClick={fetchMovies}>Search</button>
       </div>
