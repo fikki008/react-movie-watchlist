@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+  padding-top: 10px;
+  min-height: 100vh;
+  background: linear-gradient( 135deg, blue, cyan, blue) ;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #374151;
+}
+h1,h2,p{
+  margin: 0;
+}
